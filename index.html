@@ -6,28 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ovo&family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
     <title>Da Capo Academy of Music - Etobicoke</title>
 </head>
 <body>
 
-    <section class="container-fluid bg-dark text-light">
-        <div class="container">
-            <div class="row p-5">
-                <div class="col-sm-3 my-auto">
-                    <img class="img-fluid" src="img/logo.png" alt="Da Capo Academy of Music Logo">
+    <div class="container-fluid bg-dcam bg-light">
+        <div class="row">
+
+            <div class="col-sm-3 p-3">
+                <img class="img-fluid w-75" src="img/logo.png" alt="Da Capo Academy of Music Logo">
+            </div>
+
+            <div class="col-sm-7 text-center p-5">
+                <h1 class="ovo">Music Lessons in Etobicoke</h1>
+                <p class="lead">Discover the joy that music can bring, register for your free trial today!</p>
+
+                <div class="d-sm-flex justify-content-center pt-3">
+                    <div class="btn btn-warning btn-lg mb-3 mb-sm-0 me-sm-3 text-nowrap">Free Trial Lesson</div>
+                    <div class="btn btn-primary btn-lg mt-3 mt-sm-0 text-nowrap">Download Info Pack</div>
                 </div>
-                <div class="col-sm-9 text-center">
-                    <h1>Music Lessons in Etobicoke</h1>
-                    <p class="lead">Discover the joy that music can bring, register for your free trial today!</p>
-    
-                    <div class="d-sm-flex justify-content-center pt-3">
-                        <div class="btn btn-warning mb-xs-3 me-sm-3 text-nowrap">Free Trial Lesson</div>
-                        <div class="btn btn-primary mt-xs-3 ms-sm-3 text-nowrap">Download Info Pack</div>
-                    </div>
-                </div>
-            </div><!--/row-->
+            </div>
+            <div class="col-sm-2 p-4 d-flex flex-column justify-content-center filter text-light text-center">
+                <h3 class="ovo">Contact Us:</h3>
+                <a role="button" class="btn text-light" href="tel:+12365551234"><i class="fas fa-phone"></i> (416) 237-9595</a>
+                <a role="button" class="btn text-light" href="mailto:campsites@nucamp.co"><i class="fas fa-envelope"></i> info@dacapomusic.ca</a>
+            </div>
+
         </div>
-    </section>
+        <!--/row-->
+    </div>
 
 <!-- navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
@@ -36,7 +48,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
         <div class="collapse navbar-collapse navbar-dark" id="navbarNav">
-            <ul class="navbar-nav mx-auto text-uppercase fw-bolder">
+            <ul class="navbar-nav mx-auto roboto text-uppercase">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
@@ -74,7 +86,7 @@
 
 
 <!--carousel-->
-<div class="row row-content mt-sm-4">
+<!-- <div class="row row-content mt-sm-4">
     <div class="col-md-6 mx-auto">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -102,7 +114,8 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>    
-        </div><!--carousel col-->
+        </div> -->
+        <!--carousel col-->
 </div><!--/carousel row-->
 
 
