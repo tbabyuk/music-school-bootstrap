@@ -11,6 +11,15 @@
     background-color: #103756;
 }
 
+.dcam-green {
+    background-color: rgb(74, 173, 82);
+}
+
+.dcam-green:hover {
+    background-color: rgb(74, 173, 82, 0.8);
+}
+
+
 .bg-dcam {
     background-image: url(../img/banner1.png);
     background-size: cover;
