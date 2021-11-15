@@ -27,7 +27,10 @@
                 <p class="lead">Discover the joy that music can bring, register for your free trial today!</p>
 
                 <div class="d-md-flex justify-content-center mt-5">
-                        <div class="btn btn-success btn-lg mb-3 mb-sm-0 me-3 text-nowrap">Free Trial Lesson</div>
+                        <!-- <div class="btn btn-success btn-lg mb-3 mb-sm-0 me-3 text-nowrap">Free Trial Lesson</div> -->
+                        <button type="button" class="btn btn-success btn-lg mb-3 mb-sm-0 me-3 text-nowrap" data-bs-toggle="modal" data-bs-target="#trialModal">
+                            Free Trial Lesson
+                        </button>
                         <div class="btn btn-primary btn-lg mt-3 mt-sm-0 ms-3 text-nowrap">Download Info Pack</div>
                 </div>
             </div>
@@ -84,40 +87,96 @@
   </div>
 </nav><!--/navbar-->
 
+<!-- FREE TRIAL LESSON MODAL -->
+<div class="modal fade" id="trialModal" tabindex="-1">
+  <div class="modal-dialog">
 
-<!--carousel-->
-<!-- <div class="row row-content mt-sm-4">
-    <div class="col-md-6 mx-auto">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/breadcrumb-trail.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/chrome-river.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/react-lake.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>    
-        </div> -->
-        <!--carousel col-->
-</div><!--/carousel row-->
+    <div class="modal-content">
+      <div class="modal-header dcam-red text-light">
+        <h5 class="modal-title">Free Trial Lesson - Registration Form</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
 
+        <div class="modal-body">
+          <div class="form-text pb-3 text-end"><mark>Fields marked with an * are required.</mark></div>
+          <form>
+                <div class="mb-3">
+                  <label for="studentName" class="form-label">Student Name*</label>
+                  <input type="text" class="form-control" id="studentName">
+                </div>
+
+                <div class="mb-3">
+                  <label for="parentName" class="form-label">Parent/Guardian Name*</label>
+                  <input type="text" class="form-control" id="parentName">
+                </div>
+
+                <div class="mb-3">
+                  <label for="instrument" class="form-label">Instrument*</label>
+                  <select class="form-select" id="instrument" aria-label="Default select example">
+                    <option selected></option>
+                    <option value="1">piano</option>
+                    <option value="2">guitar</option>
+                    <option value="3">drums</option>
+                    <option value="3">voice</option>
+                    <option value="3">music theory</option>
+                  </select>
+                </div>
+
+                <div class="mb-3">
+                  <label for="phone" class="form-label">Phone*</label>
+                  <input type="tel" class="form-control" id="phone">
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email*</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label">How did you hear about us?*</label>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="source" value="" id="google">
+                    <label class="form-check-label" for="google">Google Search</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="source" value="" id="humber">
+                    <label class="form-check-label" for="humber">Humbertown Sign</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="source" value="" id="friend">
+                    <label class="form-check-label" for="friend">Friend/Relative</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="source" value="" id="social">
+                    <label class="form-check-label" for="social">Social Media (Facebook/Instagram)</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="source" value="" id="print">
+                    <label class="form-check-label" for="print">Print Flyer</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="source" value="" id="blog">
+                    <label class="form-check-label" for="blog">Blog Article</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="source" value="" id="other">
+                    <label class="form-check-label" for="other">Other</label>
+                  </div>
+                </div><!--/radio div-->
+
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Notes (optional)</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>  
+            </form>
+            <div class="d-flex py-2">
+              <button type="submit" class="btn btn-primary mx-auto">Submit Form</button>
+            </div>
+        </div><!--/modal body-->
+    </div><!--/modal content-->
+  </div><!--/modal dialog-->
+</div><!--/modal-->
+<!-- /FREE TRIAL LESSON MODAL -->
 
 <!-- WELCOME SECTION -->
 
