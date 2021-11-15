@@ -1,4 +1,12 @@
 
+.dcam-text-red {
+    color:#c45429;
+}
+
+.dcam-red {
+    background-color: #c45429;
+}
+
 .dcam-blue-light {
     background-color: #68ace3;
 }
@@ -56,4 +64,11 @@ font-family: 'Roboto', sans-serif;
 
 .no-border {
     border: 0;
+}
+
+.dcam-border {
+    border: 2px solid #c45429;
+    border-left: none;
+    border-right: none;
+
 }
