@@ -97,47 +97,106 @@
   
 
 <div class="container mt-5">
-    <div class="row d-flex justify-content-center">
-        <!--main col-->
-        <div class="col-lg-6 bg-notes">
-            <h2 class="text-center">Contact Form</h2>
-            <p class="mb-5 text-muted text-center">Have a question about music lessons?<br> Just fill out this quick form and we will get back to you as soon as we can!</p>
-            <form>
-                <div class="row mb-4 px-3">
-                    <div class="col-md-6">
-                        <label for="firstName" class="form-label">First Name:</label>
-                        <input type="text" class="form-control" id="firstName" name="firstName">
-                    </div>
-                    <div class="col-md-6">
-                        <label for="lastName" class="form-label">Last Name:</label>
-                        <input type="text" class="form-control" id="lastName" name="lastName">
-                    </div>
+
+<h3 class="display-4 text-muted">Contact Us & Directions</h3>
+<hr>
+
+<!-- contact form & address row -->
+<div class="row my-5">
+
+    <!--contact form col (left)-->
+    <div class="col-lg-6 mb-5 mb-lg-0 px-4">
+
+        <h2 class="text-center mb-3">Contact Form</h2>
+        <p class="mb-5 text-center text-muted ">Have a question about music lessons?<br> Just fill out this quick form and we will get back to you as soon as we can!</p>        
+        
+        <form>
+            <div class="row my-4 px-3">
+                <div class="col-md-6">
+                    <label for="firstName" class="form-label">First Name:</label>
+                    <input type="text" class="form-control" id="firstName" name="firstName">
                 </div>
-
-                <div class="row mb-4 px-3">
-                    <div class="col-md-6">
-                        <label for="phone" class="form-label">Phone:</label>
-                        <input type="tel" class="form-control" id="phone" name="phone">
-                    </div>
-                    <div class="col-md-6">
-                        <label for="email" class="form-label">Email:</label>
-                        <input type="email" class="form-control" id="email" name="email">
-                    </div>
+                <div class="col-md-6">
+                    <label for="lastName" class="form-label">Last Name:</label>
+                    <input type="text" class="form-control" id="lastName" name="lastName">
                 </div>
-
-                <div class="row-md-12 px-3 mb-4">
-                    <label for="feedback" class="form-label">Your Feedback:</label>
-                    <textarea class="form-control"rows="7" id="feedback"></textarea>
+            </div>
+    
+            <div class="row mb-4 px-3">
+                <div class="col-md-6">
+                    <label for="phone" class="form-label">Phone:</label>
+                    <input type="tel" class="form-control" id="phone" name="phone">
                 </div>
-
-                <div class="row justify-content-center mb-4 px-3">
-                    <button type="submit" class="btn btn-primary">Send Feedback</button>
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email">
                 </div>
+            </div>
+    
+            <div class="row-md-12 px-3 mb-4">
+                <label for="feedback" class="form-label">Your Feedback:</label>
+                <textarea class="form-control"rows="4" id="feedback"></textarea>
+            </div>
+    
+            <div class="row justify-content-center mb-4 px-3">
+                <button type="submit" class="btn btn-primary">Send</button>
+            </div>
+    
+        </form>
+    
+    </div><!--/end of contact form col-->
 
-            </form>
+    <!-- address col (right) -->
 
-        </div><!--/main col-->
+<hr class="d-md-none">
+
+    <div class="col-lg-6 px-5 mt-5 mt-md-0">
+        <h2 class="text-center mb-3">Address & Directions</h2>
+        <p class="mb-5 text-center text-muted">We are located inside the Humbertown Shopping Centre in the beautiful neighbourhood of Humber Valley Village:</p><br>
+
+        <div class="row mb-4">
+            <div class="col">
+                <h5 class="pb-2">Our Contact:</h5>
+                <a role="button" class="btn text-nowrap p-0" href="tel:+14162379595"><i class="fas fa-phone"></i> (416) 237-9595</a><br>
+                    <a role="button" class="btn text-nowrap p-0" href="mailto:info@dacapomusic.ca"><i class="fas fa-envelope"></i> info@dacapomusic.ca</a>
+            </div>
+
+            <div class="col">
+                <h5 class="pb-2">Our Address:</h5>
+                <i class="fas fa-map-marker-alt"></i> 270 The Kingsway,<br> Etobicoke, ON<br> M9A 3T7<br>(Humbertown Shopping Centre)<br><br>
+            </div>
+        </div>
+
+        <div class="row">
+            <h5 class="pb-2">If arriving by TTC:</h5>
+            <ol>
+            <li>On the green line (line 2), get off at <strong>Royal York</strong> station</li>
+            <li>Take any of the following buses and get off at <strong>Strath Humber Ct</strong>:
+                <ul>
+                    <li>73 Royal York B or C</li>
+                    <li>48 Rathburn</li>
+                </ul>
+            </li>   
+            </ol>
+        </div>
+
+
+    </div><!--/end of address col (right)-->
+
+</div><!--/end of contact row-->
+
+    
+<hr>
+
+    <div class="row justify-content-center mt-5">
+
+        <h2 class="text-center mb-4">Find us on Google Maps</h2>
+
+            <div class="col-lg-12 text-center" style="height: 100%; overflow: hidden;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.3573768243464!2d-79.52142184302336!3d43.66153676383621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b37bb608630c7%3A0x69f2141676b811d2!2sDa%20Capo%20Academy%20of%20Music!5e0!3m2!1sen!2sca!4v1637119011069!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>    
+            </div>
     </div><!--/row-->
+
 </div><!--/container-->
 
 

@@ -80,3 +80,11 @@ font-family: 'Roboto', sans-serif;
     border-right: none;
 
 }
+
+ol, ul {
+    list-style-position: inside;
+}
+
+img {
+    overflow: hidden;
+}
