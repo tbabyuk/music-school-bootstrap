@@ -15,41 +15,17 @@
 </head>
 <body>
 
-  <div class="container-fluid bg-dcam bg-light">
-    <div class="row">
-
-        <div class="col-lg-3 col-xxl-3 p-3 text-center text-lg-left">
-            <a href="index.html"><img class="img-fluid w-75" src="img/logo.png" alt="Da Capo Academy of Music Logo"></a>
-        </div>
-
-        <div class="col-lg-6 col-xxl-7 text-center p-5">
-            <h1 class="display-4 ovo">Music Lessons in Etobicoke</h1>
-            <p class="lead">Discover the joy that music can bring, register for your free trial today!</p>
-
-            <div class="d-md-flex justify-content-center mt-5">
-                    <!-- <div class="btn btn-success btn-lg mb-3 mb-sm-0 me-3 text-nowrap">Free Trial Lesson</div> -->
-                    <button type="button" class="btn btn-success btn-lg mb-3 mb-sm-0 me-3 text-nowrap" data-bs-toggle="modal" data-bs-target="#trialModal">Free Trial Lesson</button>
-                    <div class="btn btn-primary btn-lg mt-3 mt-sm-0 ms-3 text-nowrap">Download Info Pack</div>
-            </div>
-        </div>
-        <div class="col-lg-3 col-xxl-2 d-flex p-5 flex-column justify-content-center filter text-light text-center">
-            <h3 class="ovo">Contact Us:</h3>
-            <a role="button" class="btn text-light text-nowrap" href="tel:+14162379595"><i class="fas fa-phone"></i> (416) 237-9595</a>
-            <a role="button" class="btn text-light text-nowrap" href="mailto:info@dacapomusic.ca"><i class="fas fa-envelope"></i> info@dacapomusic.ca</a>
-        </div>
-
-    </div><!--/row-->
-</div><!--/header container-->
-
-
-<!-- navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light p-0 sticky-top mb-5">
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light p-0 sticky-top">
   <div class="container-fluid dcam-blue-reg">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/dcam-logo-white.png" alt="Da Capo Academy of Music Logo" width="200" class="p-1">
+    </a>    
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-        <div class="collapse navbar-collapse navbar-dark" id="navbarNav">
-            <ul class="navbar-nav mx-auto roboto text-uppercase">
+        <div class="collapse navbar-collapse navbar-dark justify-content-end" id="navbarNav">
+            <ul class="navbar-nav roboto text-uppercase">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
@@ -97,7 +73,36 @@
             </ul>
         </div>
   </div>
-</nav><!--/navbar-->
+</nav><!--/NAVBAR-->
+
+
+<!-- BANNER -->
+  <div class="container-fluid bg-dcam bg-light mb-5">
+    <div class="row">
+
+        <div class="col-lg-3 col-xxl-3 p-3 text-center text-lg-left">
+            <a href="index.html"><img class="img-fluid w-75" src="img/logo.png" alt="Da Capo Academy of Music Logo"></a>
+        </div>
+
+        <div class="col-lg-6 col-xxl-7 text-center p-5">
+            <h1 class="display-4 ovo">Music Lessons in Etobicoke</h1>
+            <p class="lead">Discover the joy that music can bring, register for your free trial today!</p>
+
+            <div class="d-md-flex justify-content-center mt-5">
+                    <!-- <div class="btn btn-success btn-lg mb-3 mb-sm-0 me-3 text-nowrap">Free Trial Lesson</div> -->
+                    <button type="button" class="btn btn-success btn-lg mb-3 mb-sm-0 me-3 text-nowrap" data-bs-toggle="modal" data-bs-target="#trialModal">Free Trial Lesson</button>
+                    <div class="btn btn-primary btn-lg mt-3 mt-sm-0 ms-3 text-nowrap">Download Info Pack</div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xxl-2 d-flex p-5 flex-column justify-content-center filter text-light text-center">
+            <h3 class="ovo">Contact Us:</h3>
+            <a role="button" class="btn text-light text-nowrap" href="tel:+14162379595"><i class="fas fa-phone"></i> (416) 237-9595</a>
+            <a role="button" class="btn text-light text-nowrap" href="mailto:info@dacapomusic.ca"><i class="fas fa-envelope"></i> info@dacapomusic.ca</a>
+        </div>
+
+    </div><!--/row-->
+</div><!--/BANNER-->
+
 
 <!-- FREE TRIAL LESSON MODAL -->
 <div class="modal fade" id="trialModal" tabindex="-1">

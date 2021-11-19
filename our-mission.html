@@ -15,89 +15,185 @@
 </head>
 <body>
 
-    <div class="container-fluid bg-dcam bg-light">
-        <div class="row">
-
-            <div class="col-lg-3 col-xxl-3 p-3 text-center text-lg-left">
-                <a href="index.html"><img class="img-fluid w-75" src="img/logo.png" alt="Da Capo Academy of Music Logo"></a>
-            </div>
-
-            <div class="col-lg-6 col-xxl-7 text-center p-5">
-                <h1 class="display-4 ovo">Music Lessons in Etobicoke</h1>
-                <p class="lead">Discover the joy that music can bring, register for your free trial today!</p>
-
-                <div class="d-md-flex justify-content-center mt-5">
-                        <!-- <div class="btn btn-success btn-lg mb-3 mb-sm-0 me-3 text-nowrap">Free Trial Lesson</div> -->
-                        <button type="button" class="btn btn-success btn-lg mb-3 mb-sm-0 me-3 text-nowrap" data-bs-toggle="modal" data-bs-target="#trialModal"><i class="fas fa-music fa-sm"></i> Free Trial Lesson</button>
-                        <div class="btn btn-primary btn-lg mt-3 mt-sm-0 ms-3 text-nowrap"><i class="fas fa-file-pdf fa-sm"></i> Download Info Pack</div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-xxl-2 d-flex p-5 flex-column justify-content-center filter text-light text-center">
-                <h3 class="ovo">Contact Us:</h3>
-                <a role="button" class="btn text-light text-nowrap" href="tel:+14162379595"><i class="fas fa-phone"></i> (416) 237-9595</a>
-                <a role="button" class="btn text-light text-nowrap" href="mailto:info@dacapomusic.ca"><i class="fas fa-envelope"></i> info@dacapomusic.ca</a>
-            </div>
-
-        </div><!--/row-->
-    </div><!--/header container-->
-
-
-<!-- navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light p-0 sticky-top mb-5">
-    <div class="container-fluid dcam-blue-reg">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-          <div class="collapse navbar-collapse navbar-dark" id="navbarNav">
-              <ul class="navbar-nav mx-auto roboto text-uppercase">
-                  <li class="nav-item">
-                      <a class="nav-link" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="lessonsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Music Lessons</a>
-                      <ul class="dropdown-menu dcam-blue-reg" aria-labelledby="lessonsDropdown">
-                        <li><a class="dropdown-item" href="#">Piano Lessons</a></li>
-                        <li><a class="dropdown-item" href="#">Guitar Lessons</a></li>
-                        <li><a class="dropdown-item" href="#">Drum Lessons</a></li>
-                        <li><a class="dropdown-item" href="#">Voice Lessons</a></li>
-                        <li><a class="dropdown-item" href="#">Music Theory</a></li>
-                        <li><a class="dropdown-item" href="#">Intro to Music Program</a></li>
-                        <li><a class="dropdown-item" href="#">Toddler Classes</a></li>
-                      </ul>
-                  </li>
-  
-                  <li class="nav-item">
-                      <a class="nav-link" href="rates.html">Rates</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="teachers.html">Teachers</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Reviews</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Gallery</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
-                    <ul class="dropdown-menu dcam-blue-reg" aria-labelledby="aboutDropdown">
-                      <li><a class="dropdown-item" href="our-mission.html">Our Mission</a></li>
-                      <li><a class="dropdown-item" href="our-story.html">Our Story</a></li>
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light p-0 sticky-top">
+  <div class="container-fluid dcam-blue-reg">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/dcam-logo-white.png" alt="Da Capo Academy of Music Logo" width="200" class="p-1">
+    </a>    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse navbar-dark justify-content-end" id="navbarNav">
+            <ul class="navbar-nav roboto text-uppercase">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="lessonsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Music Lessons</a>
+                    <ul class="dropdown-menu dcam-blue-reg" aria-labelledby="lessonsDropdown">
+                      <li><a class="dropdown-item" href="#">Piano Lessons</a></li>
+                      <li><a class="dropdown-item" href="#">Guitar Lessons</a></li>
+                      <li><a class="dropdown-item" href="#">Drum Lessons</a></li>
+                      <li><a class="dropdown-item" href="#">Voice Lessons</a></li>
+                      <li><a class="dropdown-item" href="#">Music Theory</a></li>
+                      <li><a class="dropdown-item" href="#">Intro to Music Program</a></li>
+                      <li><a class="dropdown-item" href="#">Toddler Classes</a></li>
                     </ul>
                 </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Blog</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Shop</a>
-                  </li>
-              </ul>
-          </div>
-    </div>
-  </nav><!--/navbar-->
+
+                <li class="nav-item">
+                    <a class="nav-link" href="rates.html">Rates</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="teachers.html">Teachers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link active dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                  <ul class="dropdown-menu dcam-blue-reg" aria-labelledby="aboutDropdown">
+                    <li><a class="dropdown-item" aria-current="page" href="#">Our Mission</a></li>
+                    <li><a class="dropdown-item" href="our-story.html">Our Story</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Shop</a>
+                </li>
+            </ul>
+        </div>
+  </div>
+</nav><!--/NAVBAR-->
+
+
+<!-- BANNER -->
+  <div class="container-fluid bg-dcam bg-light mb-5">
+    <div class="row">
+
+        <div class="col-lg-3 col-xxl-3 p-3 text-center text-lg-left">
+            <a href="index.html"><img class="img-fluid w-75" src="img/logo.png" alt="Da Capo Academy of Music Logo"></a>
+        </div>
+
+        <div class="col-lg-6 col-xxl-7 text-center p-5">
+            <h1 class="display-4 ovo">Music Lessons in Etobicoke</h1>
+            <p class="lead">Discover the joy that music can bring, register for your free trial today!</p>
+
+            <div class="d-md-flex justify-content-center mt-5">
+                    <!-- <div class="btn btn-success btn-lg mb-3 mb-sm-0 me-3 text-nowrap">Free Trial Lesson</div> -->
+                    <button type="button" class="btn btn-success btn-lg mb-3 mb-sm-0 me-3 text-nowrap" data-bs-toggle="modal" data-bs-target="#trialModal">Free Trial Lesson</button>
+                    <div class="btn btn-primary btn-lg mt-3 mt-sm-0 ms-3 text-nowrap">Download Info Pack</div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xxl-2 d-flex p-5 flex-column justify-content-center filter text-light text-center">
+            <h3 class="ovo">Contact Us:</h3>
+            <a role="button" class="btn text-light text-nowrap" href="tel:+14162379595"><i class="fas fa-phone"></i> (416) 237-9595</a>
+            <a role="button" class="btn text-light text-nowrap" href="mailto:info@dacapomusic.ca"><i class="fas fa-envelope"></i> info@dacapomusic.ca</a>
+        </div>
+
+    </div><!--/row-->
+</div><!--/BANNER-->
+
+
+<!-- FREE TRIAL LESSON MODAL -->
+<div class="modal fade" id="trialModal" tabindex="-1">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header dcam-red text-light">
+        <h5 class="modal-title">Free Trial Lesson - Registration Form</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+        <div class="modal-body">
+          <div class="form-text pb-3 text-end"><mark>Fields marked with an * are required.</mark></div>
+          <form>
+                <div class="mb-3">
+                  <label for="studentName" class="form-label">Student Name*</label>
+                  <input type="text" class="form-control" id="studentName">
+                </div>
+
+                <div class="mb-3">
+                  <label for="parentName" class="form-label">Parent/Guardian Name*</label>
+                  <input type="text" class="form-control" id="parentName">
+                </div>
+
+                <div class="mb-3">
+                  <label for="instrument" class="form-label">Instrument*</label>
+                  <select class="form-select" id="instrument" aria-label="Default select example">
+                    <option selected></option>
+                    <option value="1">piano</option>
+                    <option value="2">guitar</option>
+                    <option value="3">drums</option>
+                    <option value="3">voice</option>
+                    <option value="3">music theory</option>
+                  </select>
+                </div>
+
+                <div class="mb-3">
+                  <label for="phone" class="form-label">Phone*</label>
+                  <input type="tel" class="form-control" id="phone">
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email*</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label">How did you hear about us?*</label>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="source" value="" id="google">
+                    <label class="form-check-label" for="google">Google Search</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="source" value="" id="humber">
+                    <label class="form-check-label" for="humber">Humbertown Sign</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="source" value="" id="friend">
+                    <label class="form-check-label" for="friend">Friend/Relative</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="source" value="" id="social">
+                    <label class="form-check-label" for="social">Social Media (Facebook/Instagram)</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="source" value="" id="print">
+                    <label class="form-check-label" for="print">Print Flyer</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="source" value="" id="blog">
+                    <label class="form-check-label" for="blog">Blog Article</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="source" value="" id="other">
+                    <label class="form-check-label" for="other">Other</label>
+                  </div>
+                </div><!--/radio div-->
+
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Notes (optional)</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>  
+            </form>
+            <div class="d-flex py-2">
+              <button type="submit" class="btn btn-primary mx-auto">Submit Form</button>
+            </div>
+        </div><!--/modal body-->
+    </div><!--/modal content-->
+  </div><!--/modal dialog-->
+</div><!--/modal-->
+<!-- /FREE TRIAL LESSON MODAL -->
   
 
 <div class="container my-5">
