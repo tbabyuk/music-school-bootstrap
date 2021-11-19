@@ -99,3 +99,8 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
+.dcam-btn:hover {
+    transform:rotate(-10deg);
+}
