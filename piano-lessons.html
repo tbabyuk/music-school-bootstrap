@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ovo&family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="icon" href="img/favicon.png">
+    <title>Da Capo Academy of Music - Etobicoke</title>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light p-0 sticky-top">
+  <div class="container-fluid dcam-blue-dark">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/dcam-logo-white.png" alt="Da Capo Academy of Music Logo" width="280" class="py-2">
+    </a>    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse navbar-dark justify-content-end" id="navbarNav">
+            <ul class="navbar-nav roboto text-uppercase">
+                <li class="nav-item">
+                    <a class="nav-link dcam-btn" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle dcam-btn" href="#" id="lessonsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Music Lessons</a>
+                    <ul class="dropdown-menu dcam-blue-reg" aria-labelledby="lessonsDropdown">
+                      <li><a class="dropdown-item" aria-current="page" href="#">Piano Lessons</a></li>
+                      <li><a class="dropdown-item" href="#">Guitar Lessons</a></li>
+                      <li><a class="dropdown-item" href="#">Drum Lessons</a></li>
+                      <li><a class="dropdown-item" href="#">Voice Lessons</a></li>
+                      <li><a class="dropdown-item" href="#">Music Theory</a></li>
+                      <li><a class="dropdown-item" href="#">Intro to Music Program</a></li>
+                      <li><a class="dropdown-item" href="#">Toddler Classes</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link dcam-btn" href="rates.html">Rates</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link dcam-btn" href="teachers.html">Teachers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link dcam-btn" href="#">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link dcam-btn" href="#">Gallery</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link active dropdown-toggle dcam-btn" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                  <ul class="dropdown-menu dcam-blue-reg" aria-labelledby="aboutDropdown">
+                    <li><a class="dropdown-item" href="our-mission.html">Our Mission</a></li>
+                    <li><a class="dropdown-item" href="our-story.html">Our Story</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                    <a class="nav-link dcam-btn" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link dcam-btn" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link dcam-btn" href="#">Shop</a>
+                </li>
+            </ul>
+        </div>
+  </div>
+</nav><!--/NAVBAR-->
+
+
+<!-- BANNER -->
+<div class="container-fluid bg-dcam bg-light mb-5">
+  <div class="row d-flex justify-content-end">
+
+      <div class="col-lg-6 col-xxl-7 pe-0 text-center mt-5">
+          <div>
+            <h1 class="display-4 dcam-text-orange roboto-ital roboto-bold">Music Lessons in Etobicoke</h1>
+            <p class="lead">Discover the joy that music can bring, register for your free trial today!</p>
+          </div>
+
+          <div class="d-md-flex justify-content-center pt-5 mb-5">
+                  <button type="button" class="btn btn-success btn-lg mb-3 mb-sm-0 me-3 text-nowrap" data-bs-toggle="modal" data-bs-target="#trialModal">Free Trial Lesson</button>
+                  <button type="button" class="btn btn-primary btn-lg mt-3 mt-sm-0 ms-3 text-nowrap">Download Info Pack</button>
+          </div>
+      </div>
+      <div class="col-lg-3 col-xxl-2 d-flex p-5 flex-column justify-content-center filter text-light text-center">
+          <h3 class="ovo text-nowrap">Contact Us:</h3>
+          <a role="button" class="btn text-light text-nowrap" href="tel:+14162379595"><i class="fas fa-phone"></i> (416) 237-9595</a>
+          <a role="button" class="btn text-light text-nowrap" href="mailto:info@dacapomusic.ca"><i class="fas fa-envelope"></i> info@dacapomusic.ca</a>
+      </div>
+
+  </div><!--/row-->
+</div><!--/BANNER-->
+
+
+<!-- FREE TRIAL LESSON MODAL -->
+<div class="modal fade" id="trialModal" tabindex="-1">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header dcam-red text-light">
+        <h5 class="modal-title">Free Trial Lesson - Registration Form</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+        <div class="modal-body">
+          <div class="form-text pb-3 text-end"><mark>Fields marked with an * are required.</mark></div>
+          <form>
+                <div class="mb-3">
+                  <label for="studentName" class="form-label">Student Name*</label>
+                  <input type="text" class="form-control" id="studentName">
+                </div>
+
+                <div class="mb-3">
+                  <label for="parentName" class="form-label">Parent/Guardian Name*</label>
+                  <input type="text" class="form-control" id="parentName">
+                </div>
+
+                <div class="mb-3">
+                  <label for="instrument" class="form-label">Instrument*</label>
+                  <select class="form-select" id="instrument" aria-label="Default select example">
+                    <option selected></option>
+                    <option value="1">piano</option>
+                    <option value="2">guitar</option>
+                    <option value="3">drums</option>
+                    <option value="3">voice</option>
+                    <option value="3">music theory</option>
+                  </select>
+                </div>
+
+                <div class="mb-3">
+                  <label for="phone" class="form-label">Phone*</label>
+                  <input type="tel" class="form-control" id="phone">
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email*</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label">How did you hear about us?*</label>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="source" value="" id="google">
+                    <label class="form-check-label" for="google">Google Search</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="source" value="" id="humber">
+                    <label class="form-check-label" for="humber">Humbertown Sign</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="source" value="" id="friend">
+                    <label class="form-check-label" for="friend">Friend/Relative</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="source" value="" id="social">
+                    <label class="form-check-label" for="social">Social Media (Facebook/Instagram)</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="source" value="" id="print">
+                    <label class="form-check-label" for="print">Print Flyer</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="source" value="" id="blog">
+                    <label class="form-check-label" for="blog">Blog Article</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="source" value="" id="other">
+                    <label class="form-check-label" for="other">Other</label>
+                  </div>
+                </div><!--/radio div-->
+
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Notes (optional)</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>  
+            </form>
+            <div class="d-flex py-2">
+              <button type="submit" class="btn btn-primary mx-auto">Submit Form</button>
+            </div>
+        </div><!--/modal body-->
+    </div><!--/modal content-->
+  </div><!--/modal dialog-->
+</div><!--/modal-->
+<!-- /FREE TRIAL LESSON MODAL -->
+  
+
+<div class="container my-5">
+
+<h3 class="display-4 text-muted">Piano Lessons</h3>
+<hr class="mb-5">
+
+<div class="row d-flex justify-content-center">
+    <div class="col-md-2 text-center d-flex align-items-center">
+      <img src="img/piano-lessons/piano_lesson.png" class="img-fluid rounded img-thumbnail mt-5" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h4 class="card-title mb-4 text-center dcam-text-orange">Overview</h4>
+        <p class="card-text">Piano is the most popular instrument in the world – and for many good reasons. It’s very visual, extremely expressive, and, unlike many other instruments, allows us to play a large number of notes at the same time. It’s sort of like having a whole orchestra at your fingertips! But as a wise man once said (and as many experienced pianists will tell you): “It’s easy to play the piano, but it’s hard to play it well”.
+
+          At DCAM, we believe technique can make or break your piano playing, which is why we do our best to make sure our students (especially young children) learn correct technique from the very beginning – before it becomes a habit. Having good technique is an absolutely essential foundation to the student’s proper development and growth as a musician.
+          
+          We also realize that our students come in many different “shapes and sizes”, which is why our teachers do their best to tailor lessons to each student’s individual skill level and musical taste.
+          
+          We cordially invite you to start your musical journey with us and see for yourself why we have the best piano lessons in Etobicoke!</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col col-md-10 mx-auto mt-5">
+      <div class="card-body">
+          <h4 class="card-title mb-4 text-center dcam-text-orange">What is a good age to start piano lessons?</h4>
+          <p class="card-text">Five is the age at which most children have enough mental focus, self-awareness, and finger strength to start piano lessons. At this age, 30-minute lessons are the recommended option.
+
+            If your child is younger than 5 and you think they are ready to start lessons – sign them up for a free trial lesson and we will be happy to give you our recommendation!</p>
+      </div>
+  </div>
+
+
+  <div class="col col-md-10 mx-auto mt-5">
+      <div class="card-body">
+        <h4 class="card-title mb-4 text-center dcam-text-orange">Lesson Format</h4>
+        <p class="card-text">Private lessons: these are one-on-one lessons with student and teacher. Private lessons are a great option for students looking for highly-focused and individualized music instruction. The teacher is able to give their full attention to one student and students normally progress faster in this environment.
+
+          Semi-private lessons: these lessons consist of two students per teacher. Semi-private lessons can be a budget-friendly option for parents with two children or two friends wanting to learn the same instrument together. The one obvious drawback is that students don’t receive as much focused and individualized attention from the teacher as they do with private lessons.</p>
+      </div>
+  </div>
+
+  <div class="col col-md-10 mx-auto mt-5">
+    <div class="card-body">
+      <h4 class="card-title mb-4 text-center dcam-text-orange">Lesson Duration</h4>
+      <p class="card-text">
+        At DCAM, students can choose between 30-minute, 45-minute, or 1-hour lessons. Small children generally start with 30-minute lessons and increase lesson duration as they get older and/or with the recommendation from their teacher. For teenagers and adults, a minimum lesson time of 45 minutes is strongly recommended.</p>
+    </div>
+  </div>
+
+  <div class="row d-flex justify-content-center mt-5">
+    <div class="col-md-8">
+      <div class="card-body">
+        <h4 class="card-title mb-4 text-center dcam-text-orange">Materials</h4>
+        <p class="card-text">For complete beginners, we like to use “The ABC of Piano Playing” series by Boris Berlin, which contains Books 1, 2, and 3. These books are a great introduction to the keyboard and music notation and contain many simple and catchy tunes. After finishing all three of these books, students have several options. Those following the Royal Conservatory path will be able to start either the “Preparatory A Piano Repertoire” or jump straight into the “Level 1 Piano Repertoire”. For students who do not wish to do the Royal Conservatory exams, books will be chosen based on their individual musical preferences.</p>
+      </div>
+    </div>
+    <div class="col-md-2 text-center d-flex align-items-center">
+      <img src="img/piano-lessons/abc books.jpg" class="img-fluid rounded img-thumbnail mt-5" alt="...">
+    </div>
+  </div>
+
+
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-2 text-center d-flex align-items-center">
+      <img src="img/piano-lessons/dcam-piano.jpg" class="img-fluid rounded img-thumbnail mt-5" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h4 class="card-title mb-4 text-center dcam-text-orange">Instruments</h4>
+        <p class="card-text">At DCAM, students learn using upright acoustic pianos. While we don’t expect all our students to have an acoustic piano at home, we do recommend getting at least a weighted keyboard. Weighted simply means that the keys have a slight resistance, similar to that of a real piano.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col col-md-10 mx-auto mt-5">
+    <div class="card-body">
+      <h4 class="card-title mb-4 text-center dcam-text-orange">Styles</h4>
+      <p class="card-text">
+        Students can choose to learn any musical style they want on the piano, such as pop, jazz,  classical, etc. Those wishing to go the Royal Conservatory route should expect a heavy focus on classical music.</p>
+    </div>
+  </div>
+
+
+  <div class="col col-md-10 mx-auto mt-5">
+    <div class="card-body">
+      <h4 class="card-title mb-4 text-center dcam-text-orange">Teachers</h4>
+      <p class="card-text">
+        Our teachers are all qualified professionals and passionate musicians. We do our best to match a student with a teacher that we think would best fit their musical goals as well as their personalities. We understand that while some students prefer a relaxed teaching approach, there are always those for whom a more strict approach is more effective. Students also have the option to request to change their teacher if they wish to do so. Learn more about our teachers on our <a href="teachers.html">Teachers Section.</a></p>
+    </div>
+  </div>
+
+    <div class="col col-md-10 rounded mx-auto text-center mt-5 dcam-blue-reg py-5">
+      <button type="button" class="btn btn-warning btn-lg text-light mb-3 mb-sm-0 text-nowrap" data-bs-toggle="modal" data-bs-target="#trialModal">Get My Free Trial Lesson!</button>
+      <p class="mt-4 col-md-8 mx-auto small text-light">Just fill out our quick trial lesson form and wait to hear from us within 1-2 business days. If you like your trial lesson, you can sign up for regular lessons with us! Our lessons are available online (Zoom or Skype) as well as in-person if you live close to our location. Start learning your favorite instrument with one of our amazing teachers today!</p>
+    </div>
+
+
+</div>
+
+
+<!-- FOOTER SECTION -->
+<div class="container-fluid mt-5">
+    <div class="row">
+  
+        <div class="col-sm-6 col-lg-3 dcam-blue-dark py-5 ps-5">
+            <h5 class="text-light ovo">FOLLOW US:</h5>
+            <a href="https://www.facebook.com/dacapomusic.ca/"><i class="fab fa-facebook-square fa-3x ps-0 pe-2"></i></a>
+            <a href="https://www.instagram.com/dacapomusic.ca/"><i class="fab fa-instagram-square fa-3x p-2"></i></a>
+            <a href="https://www.youtube.com/watch?v=gSPAOkyO4AA"><i class="fab fa-youtube-square fa-3x p-2"></i></a>
+        </div>
+  
+        <div class="col-sm-6 col-lg-3 dcam-blue-dark py-5 ps-5">
+          <h5 class="text-light ovo mb-3">WHAT WE OFFER:</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link py-2 ps-0 d-inline-block" href="#">Piano Lessons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-2 ps-0 d-inline-block" href="#">Guitar Lessons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-2 ps-0 d-inline-block" href="#">Drum Lessons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-2 ps-0 d-inline-block" href="#">Voice Lessons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-2 ps-0 d-inline-block" href="#">Theory Lessons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-2 ps-0 d-inline-block" href="#">Intro to Music Program</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-2 ps-0 d-inline-block" href="#">Toddler Classes</a>
+            </li>
+  
+          </ul>
+  
+        </div>
+  
+        <div class="col-sm-6 col-lg-3 dcam-blue-dark py-5 ps-5">
+          <h5 class="text-light ovo mb-3">LEARN MORE:</h5>
+  
+          <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link py-2 ps-0 d-inline-block" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link py-2 ps-0 d-inline-block" href="#">Teachers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link py-2 ps-0 d-inline-block" href="#">Rates</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link py-2 ps-0 d-inline-block" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link py-2 ps-0 d-inline-block" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link py-2 ps-0 d-inline-block" href="#">Privacy Policy</a>
+              </li>
+          </ul>
+  
+        </div>
+  
+        <div class="col-sm-6 col-lg-3 dcam-blue-dark py-5 ps-5">
+            <h5 class="text-light ovo mb-3">CONTACT US:</h5>
+  
+          <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link pt-2 pb-3 ps-0 d-inline-block" href="tel:+14162379595"><i class="fas fa-phone"></i> (416) 237-9595</a>
+              </li>
+              <li class="nav-item">
+                <a  class="nav-link py-3 ps-0 d-inline-block" href="mailto:info@dacapomusic.ca"><i class="fas fa-envelope"></i> info@dacapomusic.ca</a>
+              </li>
+              <li class="nav-item">
+                <a  class="nav-link py-3 ps-0 d-inline-block" href="https://g.page/dacapomusic-ca?share" target="_blank"><i class="fas fa-map-marker-alt"></i> 270 The Kingsway,<br> Etobicoke, ON<br> M9A 3T7<br>(Humbertown Shopping Centre)</a>
+              </li>
+  
+          </ul>
+            
+            <div class="d-flex flex-column">
+            </div>
+        </div>
+        <div class="col-12 text-muted bg-dark py-2 text-center">
+            <small>&copy 2021 Da Capo Academy of Music Inc.</small>
+        </div>
+    </div><!--/footer row-->
+  </div><!--/footer container-->
+  
+
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

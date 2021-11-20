@@ -138,3 +138,8 @@ img {
 .dcam-btn:hover {
     transform:rotate(-6deg);
 }
+
+
+.img-floated {
+    float: left;
+}
