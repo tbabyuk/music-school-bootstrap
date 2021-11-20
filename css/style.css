@@ -1,6 +1,15 @@
+/* CUSTOM TEXT COLOURS */
 
 .dcam-text-red {
     color:#c45429;
+}
+
+.dcam-text-orange {
+    color:#ef8354;
+}
+
+.dcam-text-yellow {
+    color: #fff05a;
 }
 
 .dcam-text-blue-light {
@@ -15,8 +24,32 @@
     color: #103756;
 }
 
+
+/* CUSTOM TEXT STYLES */
+.roboto-reg {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal; 
+    }
+    
+.roboto-bold {
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+}
+
+.roboto-ital {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+
+
+/* CUSTOM BACKGROUND COLOURS */
 .dcam-red {
     background-color: #c45429;
+}
+
+.dcam-orange {
+    background-color: #ef8354;
 }
 
 .dcam-blue-light {
@@ -55,9 +88,11 @@
     background-color: rgba(0, 0, 0, .5)
 }
 
-.roboto {
-font-family: 'Roboto', sans-serif;
-}
+.roboto-light {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100; 
+    }
+
 
 .ovo {
     font-family: 'Ovo', serif;
@@ -102,5 +137,5 @@ img {
 
 
 .dcam-btn:hover {
-    transform:rotate(-10deg);
+    transform:rotate(-6deg);
 }
