@@ -87,8 +87,8 @@
           </div>
 
           <div class="d-md-flex justify-content-center pt-5 mb-5">
-                  <button type="button" class="btn btn-success btn-lg mb-3 mb-sm-0 me-3 text-nowrap" data-bs-toggle="modal" data-bs-target="#trialModal">Free Trial Lesson</button>
-                  <button type="button" class="btn btn-primary btn-lg mt-3 mt-sm-0 ms-3 text-nowrap">Download Info Pack</button>
+                  <button type="button" class="btn btn-warning text-light btn-lg mb-3 mb-sm-0 me-3 text-nowrap" data-bs-toggle="modal" data-bs-target="#trialModal">Free Trial Lesson</button>
+                  <button type="button" class="btn btn-primary btn-lg mt-3 mt-sm-0 ms-3 text-nowrap" data-bs-toggle="modal" data-bs-target="#infoModal">Download Info Pack</button>
           </div>
       </div>
       <div class="col-lg-3 col-xxl-2 d-flex p-5 flex-column justify-content-center filter text-light text-center">
@@ -112,7 +112,7 @@
       </div>
 
         <div class="modal-body">
-          <div class="form-text pb-3 text-end"><mark>Fields marked with an * are required.</mark></div>
+          <div class="form-text pb-3 text-end"><small class="mark text-muted">Fields marked with an * are required.</small></div>
           <form>
                 <div class="mb-3">
                   <label for="studentName" class="form-label">Student Name*</label>
@@ -120,7 +120,7 @@
                 </div>
 
                 <div class="mb-3">
-                  <label for="parentName" class="form-label">Parent/Guardian Name*</label>
+                  <label for="parentName" class="form-label">Parent/Guardian Name*<span class="small text-muted"> (enter "na" if you're an adult student)</span></label>
                   <input type="text" class="form-control" id="parentName">
                 </div>
 
@@ -183,16 +183,39 @@
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>  
             </form>
-            <div class="d-flex py-2">
-              <button type="submit" class="btn btn-primary mx-auto">Submit Form</button>
+            <div class="d-flex-column py-2">
+              <button type="submit" class="btn btn-primary d-block mx-auto">Submit Form</button>
+              <span class="mark small text-muted d-block text-center mt-3">We will contact you within 2 business days to arrange your trial lesson!</span>
             </div>
         </div><!--/modal body-->
     </div><!--/modal content-->
   </div><!--/modal dialog-->
 </div><!--/modal-->
 <!-- /FREE TRIAL LESSON MODAL -->
+
+
+<!-- INFO PACK MODAL -->
+<div class="modal fade" id="infoModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header dcam-red text-light">
+        <h5 class="modal-title">Da Capo Academy of Music - Info Pack</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+        <div class="modal-body">
+            <small>Learn more about what we offer and how our lessons work with our "Info Pack" (PDF). Just enter your email address below to have it sent to you!</small>
+            <div class="input-group my-4">
+              <input type="email" id="email2" class="form-control" placeholder="Enter your email address" aria-label="Recipient's email" aria-describedby="button-addon2">
+              <button class="btn btn-primary" type="submit" id="button-addon2">Submit</button>
+            </div>
+        </div><!--/modal body-->
+    </div><!--/modal content-->
+  </div><!--/modal dialog-->
+</div><!--/modal-->
+<!-- /INFO PACK MODAL -->
     
 
+<!-- RATES SECTION BEGINS -->
 <div class="container mt-5">
 
 <h3 class="display-4 text-muted">Rates</h3>
