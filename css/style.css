@@ -44,6 +44,11 @@ font-weight: bold;
 
 
 /* CUSTOM BACKGROUND COLOURS */
+
+.dcam-nav-bg {
+    background-image: linear-gradient(to right, #216dab, #103756 50%);
+}
+
 .dcam-red {
     background-color: #c45429;
 }
@@ -79,10 +84,6 @@ font-weight: bold;
     background-position: center;
 }
 
-.bg-notes {
-    background-image: url(../img/bg-notes.png);
-    background-size: cover;
-    background-position: center;}
 
 .filter {
     background-color: rgba(0, 0, 0, .5)
@@ -92,7 +93,6 @@ font-weight: bold;
     font-family: 'Roboto', sans-serif;
     font-weight: 100; 
     }
-
 
 .ovo {
     font-family: 'Ovo', serif;
