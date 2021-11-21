@@ -149,3 +149,14 @@ img {
     width: auto;
     height: 350px;
 }
+
+
+.dropdown-menu {
+    background-color: #103756;
+
+}
+
+.dropdown-menu a {
+    color:#93A5B3;
+
+}
