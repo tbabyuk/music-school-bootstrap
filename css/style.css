@@ -143,3 +143,9 @@ img {
 .img-floated {
     float: left;
 }
+
+
+.carousel-item img {
+    width: auto;
+    height: 350px;
+}
