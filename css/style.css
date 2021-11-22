@@ -53,6 +53,10 @@ font-weight: bold;
     background-color: #c45429;
 }
 
+.dcam-yellow {
+    background-color:#fff05a;
+}
+
 .dcam-orange {
     background-color: #ef8354;
 }
@@ -194,4 +198,10 @@ img {
     background-size: cover;
     background-position: center;
     height: 400px;
+}
+
+
+.zoom:hover {
+    transform: scale(1.5);
+    z-index: 1;
 }
