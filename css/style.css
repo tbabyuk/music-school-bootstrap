@@ -152,9 +152,20 @@ img {
 }
 
 
+
+/*CAROUSEL CODE*/
+
 .carousel-item img {
     width: auto;
     height: 350px;
+}
+
+@media screen and (max-width: 992px) {
+    .carousel-item img {
+        height: auto;
+        width: 400px;
+
+    }
 }
 
 
