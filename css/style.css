@@ -45,7 +45,7 @@ font-weight: bold;
 
 /* CUSTOM BACKGROUND COLOURS */
 
-.dcam-nav-bg {
+.dcam-bg-gradient {
     background-image: linear-gradient(to right, #216dab, #103756 50%);
 }
 
@@ -77,6 +77,13 @@ font-weight: bold;
     background-color: rgb(74, 173, 82, 0.8);
 }
 
+.banner-height {
+    height: 400px;
+}
+
+.banner-row-height {
+    height: 100%;
+}
 
 .bg-dcam {
     background-image: url(../img/banner1.png);
