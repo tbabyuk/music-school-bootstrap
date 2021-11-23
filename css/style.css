@@ -46,7 +46,7 @@ font-weight: bold;
 /* CUSTOM BACKGROUND COLOURS */
 
 .dcam-bg-gradient {
-    background-image: linear-gradient(to right, #216dab, #103756 50%);
+    background-image: linear-gradient(to right, #216dab, #103756 55%);
 }
 
 .dcam-red {
@@ -138,40 +138,27 @@ img {
     overflow: hidden;
 }
 
-.slider-overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 
 .dcam-btn:hover {
     transform:rotate(-6deg);
 }
 
 
-.img-floated {
-    float: left;
-}
-
-
-
 /*CAROUSEL CODE*/
 
-.carousel-item img {
-    width: auto;
+.slider-div {
     height: 350px;
+    overflow: hidden;
+}
+
+.slider-bg {
+    background-color:#95b9c2
 }
 
 @media screen and (max-width: 992px) {
     .carousel-item img {
-        height: auto;
-        width: 400px;
-
-    }
-}
-
+     width: 75%
+    }}
 
 .dropdown-menu {
     background-color: #103756;

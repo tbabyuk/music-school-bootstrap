@@ -52,7 +52,7 @@
                     <a class="nav-link dcam-btn" href="#">Reviews</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link dcam-btn" href="#">Gallery</a>
+                    <a class="nav-link dcam-btn" href="gallery.html">Gallery</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle dcam-btn" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
@@ -218,49 +218,38 @@
 
 <!--SLIDER SECTION-->
 
-<div class="container">
-  <div class="row mb-5">
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/slider/avery2.jpg" class="d-block w-25 mx-auto" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/slider/mateo2.jpg" class="d-block w-25 mx-auto" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/slider/nastya2.jpg" class="d-block w-25 mx-auto" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/slider/nikhil2.jpg" class="d-block w-25 mx-auto" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/slider/peter2.jpg" class="d-block w-25 mx-auto" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/slider/sarah2.jpeg" class="d-block w-25 mx-auto" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/slider/mia2.jpg" class="d-block w-25 mx-auto" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/slider/sean2.jpeg" class="d-block w-25 mx-auto" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/slider/sophia2.jpg" class="d-block w-25 mx-auto" alt="...">
-              </div>
-          </div>
+<div class="container-fluid slider-div slider-bg">
 
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-      </div>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active text-center">
+          <img src="img/gallery/lesson1.jpg" width="25%" height="100%"></img>
+        </div>
+        <div class="carousel-item text-center">
+          <img src="img/gallery/nikhil1.jpg" width="25%" height="100%"></img>
+        </div>
+        <div class="carousel-item text-center">
+          <img src="img/gallery/gordiy1.jpg" width="25%" height="100%"></img>
+        </div>
+     </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
+
 </div>
 
 
@@ -623,6 +612,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link py-2 ps-0 d-inline-block" href="rates.html">Rates</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-2 ps-0 d-inline-block" href="gallery.html">Gallery</a>
             </li>
             <li class="nav-item">
               <a class="nav-link py-2 ps-0 d-inline-block" href="#">Blog</a>
