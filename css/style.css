@@ -151,9 +151,6 @@ img {
     overflow: hidden;
 }
 
-.slider-bg {
-    background-color:#95b9c2
-}
 
 @media screen and (max-width: 992px) {
     .carousel-item img {
