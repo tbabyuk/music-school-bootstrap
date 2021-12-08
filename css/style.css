@@ -168,12 +168,12 @@ img {
 }
 
 .testimonials-bg {
-    background-image: linear-gradient(to right, #fff, #e0dede);
+    background-image: linear-gradient(to left, #fff, #e0dede);
 
 }
 
 .testimonials-shadow {
-    box-shadow: 5px 5px 10px rgb(150, 149, 149);
+    box-shadow: -5px 5px 10px rgb(150, 149, 149);
 }
 
 
@@ -188,4 +188,13 @@ img {
 .zoom:hover {
     transform: scale(1.5);
     z-index: 1;
+}
+
+
+#typed-strings p {
+    text-decoration: bold;
+}
+
+.lessons {
+    font-style: italic;
 }
