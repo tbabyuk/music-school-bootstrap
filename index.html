@@ -77,24 +77,25 @@
 
 
 <!-- BANNER -->
-<div class="container-fluid bg-dcam bg-light mb-0">
-  <div class="row d-flex justify-content-end">
+<div class="container-fluid bg-dcam bg-light mb-0 banner">
+  <div class="row d-flex justify-content-end" style="height: 100%">
 
-      <div class="col-lg-6 col-xxl-7 pe-0 text-center mt-5">
+      <div class="col-lg-7 col-xxl-7 pe-0 text-center mt-5 d-flex flex-column justify-content-evenly" style="padding-left: 0px">
           <div>
             <h1 class="display-4 dcam-text-orange roboto-ital roboto-bold">Music Lessons in Etobicoke</h1>
-            <h3><span class="lessons"></span> lessons</h3>
           </div>
-
-          <div class="d-md-flex justify-content-center pt-5 mb-5">
-                  <button type="button" class="btn btn-warning text-light btn-lg mb-3 mb-sm-0 me-3 text-nowrap" data-bs-toggle="modal" data-bs-target="#trialModal">Free Trial Lesson</button>
-                  <button type="button" class="btn btn-primary btn-lg mt-3 mt-sm-0 ms-3 text-nowrap" data-bs-toggle="modal" data-bs-target="#infoModal">Download Info Pack</button>
+          <div class="div">
+            <h2><span class="lessons"></span> lessons</h2>
+          </div>
+          <div class="d-flex flex-column flex-sm-row justify-content-evenly pt-5 mb-5">
+                  <button type="button" class="btn btn-warning text-light btn-lg mb-3 mb-sm-0 text-nowrap" data-bs-toggle="modal" data-bs-target="#trialModal">Free Trial Lesson</button>
+                  <button type="button" class="btn btn-primary btn-lg mt-3 mt-sm-0 text-nowrap" data-bs-toggle="modal" data-bs-target="#infoModal">Download Info Pack</button>
           </div>
       </div>
-      <div class="col-lg-3 col-xxl-2 d-flex p-5 flex-column justify-content-center filter text-light text-center">
-          <h3 class="ovo text-nowrap">Contact Us:</h3>
-          <a role="button" class="btn text-light text-nowrap" href="tel:+14162379595"><i class="fas fa-phone"></i> (416) 237-9595</a>
-          <a role="button" class="btn text-light text-nowrap" href="mailto:info@dacapomusic.ca"><i class="fas fa-envelope"></i> info@dacapomusic.ca</a>
+      <div class="col-lg-3 col-xxl-2 d-flex flex-column p-4 justify-content-center filter text-light">
+          <h3 class="ovo text-nowrap ps-2 py-2 text-center text-lg-start">Contact Us:</h3>
+          <a role="button" class="btn text-light text-nowrap py-3 text-lg-start" href="tel:+14162379595"><i class="fas fa-phone"></i> (416) 237-9595</a>
+          <a role="button" class="btn text-light text-nowrap py-2 text-lg-start" href="mailto:info@dacapomusic.ca"><i class="fas fa-envelope"></i> info@dacapomusic.ca</a>
       </div>
 
   </div><!--/row-->
@@ -664,13 +665,11 @@
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<!-- <script src="node_modules/typed.js/src/typed.js"></script> -->
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
 <script>
-//SEO-friendly version
 var typed = new Typed('.lessons', {
-  strings: ["piano", "guitar","drums", "voice", "music theory"],
+  strings: ["piano", "guitar","drum", "voice", "music theory"],
   typeSpeed: 40,
   backSpeed: 40,
   loop: true,

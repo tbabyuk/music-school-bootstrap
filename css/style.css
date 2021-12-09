@@ -81,8 +81,8 @@ font-weight: bold;
     background-color: rgb(74, 173, 82, 0.8);
 }
 
-.banner-height {
-    height: 400px;
+.banner {
+    height: 500px;
 }
 
 .banner-row-height {
@@ -97,7 +97,7 @@ font-weight: bold;
 
 
 .filter {
-    background-color: rgba(0, 0, 0, .5)
+    background-color: rgba(0, 0, 0, .5);
 }
 
 .roboto-light {
