@@ -61,6 +61,10 @@ font-weight: bold;
     background-image: linear-gradient(to right, #ef8354, #c45429 55%);
 }
 
+.dcam-gray {
+    background-color: #dadada;
+}
+
 .dcam-red {
     background-color: #c45429;
 }
@@ -94,7 +98,19 @@ font-weight: bold;
 } */
 
 .banner {
-    height: 520px;
+    height: 500px;
+}
+
+.top-social a:hover {
+    color: #ef8354;
+}
+
+.top-social .fab:hover {
+    color: #ef8354;
+}
+
+.top-social {
+    border-bottom: 2px solid #dadada;
 }
 
 .banner-row-height {
@@ -104,7 +120,7 @@ font-weight: bold;
 .bg-dcam {
     background-image: url(../img/banner1.png);
     background-size: cover;
-    background-position: center;
+    background-position:center;
 }
 
 
@@ -132,9 +148,9 @@ font-weight: bold;
     padding: 30px;
 }
 
-.fab:hover {
+/* .fab:hover {
     color: #212529;
-}
+} */
 
 .no-border {
     border: 0;
