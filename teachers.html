@@ -1,340 +1,437 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ovo&family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link rel="icon" href="img/favicon.png">
-    <title>Da Capo Academy of Music - Etobicoke</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ovo&family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="icon" href="img/favicon.png">
+  <title>Da Capo Academy of Music - Etobicoke</title>
 </head>
+
 <body>
 
-<!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-dark p-0 sticky-top">
-  <div class="container-fluid dcam-bg-gradient">
-    <a class="navbar-brand" href="index.html">
-      <img src="img/dcam-logo-white.png" class="img-btn py-2" alt="Da Capo Academy of Music Logo" width="250">
-    </a>    
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-        <div class="collapse navbar-collapse navbar-dark justify-content-end" id="navbarNav">
-            <ul class="navbar-nav roboto text-uppercase">
-                <li class="nav-item">
-                    <a class="nav-link dcam-btn" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle dcam-btn" href="#" id="lessonsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Music Lessons</a>
-                    <ul class="dropdown-menu dcam-blue-reg" aria-labelledby="lessonsDropdown">
-                      <li><a class="dropdown-item" href="piano-lessons.html">Piano Lessons</a></li>
-                      <li><a class="dropdown-item" href="#">Guitar Lessons</a></li>
-                      <li><a class="dropdown-item" href="#">Drum Lessons</a></li>
-                      <li><a class="dropdown-item" href="#">Voice Lessons</a></li>
-                      <li><a class="dropdown-item" href="#">Music Theory</a></li>
-                      <li><a class="dropdown-item" href="#">Intro to Music Program</a></li>
-                      <li><a class="dropdown-item" href="#">Toddler Classes</a></li>
-                    </ul>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link dcam-btn" href="rates.html">Rates</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active dcam-btn" aria-current="page" href="#">Teachers</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link dcam-btn" href="#">Reviews</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link dcam-btn" href="gallery.html">Gallery</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle dcam-btn" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
-                  <ul class="dropdown-menu dcam-blue-reg" aria-labelledby="aboutDropdown">
-                    <li><a class="dropdown-item" href="our-mission.html">Our Mission</a></li>
-                    <li><a class="dropdown-item" href="our-story.html">Our Story</a></li>
-                  </ul>
-              </li>
-              <li class="nav-item dcam-btn">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item dcam-btn">
-                    <a class="nav-link" href="#">Blog</a>
-                </li>
-                <li class="nav-item dcam-btn">
-                    <a class="nav-link" href="#">Shop</a>
-                </li>
-            </ul>
-        </div>
+  <!-- SOCIAL SECTION -->
+  <div class="container-fluid top-social d-flex flex-column flex-sm-row justify-content-end align-items-center dcam-bg-gradient">
+    <div class="py-2 px-0 px-sm-3 social">
+      <a href="https://www.facebook.com/dacapomusic.ca/" target="_blank"><i class="fab fa-facebook-square fa-2x pe-3 text-light"></i></a>
+      <a href="https://www.instagram.com/dacapomusic.ca/" target="_blank"><i class="fab fa-instagram-square fa-2x pe-3 text-light"></i></a>
+      <a href="https://www.youtube.com/watch?v=gSPAOkyO4AA" target="_blank"><i class="fab fa-youtube-square fa-2x pe-3 text-light"></i></a>
+    </div>
+    <div>
+      <a role="button" class="btn text-lg-start pb-3 pb-sm-0 px-1 px-sm-3 text-light" href="mailto:info@dacapomusic.ca"><i class="fas fa-envelope"></i> info@dacapomusic.ca</a>
+      <a role="button" class="btn text-lg-start pb-3 pb-sm-0 px-1 px-sm-3 text-light" href="tel:+14162379595"><i class="fas fa-phone"></i> (416) 237-9595</a>
+    </div>
   </div>
-</nav><!--/NAVBAR-->
+  <!-- /SOCIAL SECTION -->
+
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark p-0 sticky-top">
+    <div class="container-fluid dcam-bg-gradient">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/dcam-logo-white.png" class="img-btn py-2" alt="Da Capo Academy of Music Logo" width="250">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navbar-dark justify-content-end" id="navbarNav">
+        <ul class="navbar-nav roboto text-uppercase">
+          <li class="nav-item">
+            <a class="nav-link dcam-btn" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle dcam-btn" href="#" id="lessonsDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Music Lessons</a>
+            <ul class="dropdown-menu dcam-blue-reg" aria-labelledby="lessonsDropdown">
+              <li><a class="dropdown-item" href="piano-lessons.html">Piano Lessons</a></li>
+              <li><a class="dropdown-item" href="#">Guitar Lessons</a></li>
+              <li><a class="dropdown-item" href="#">Drum Lessons</a></li>
+              <li><a class="dropdown-item" href="#">Voice Lessons</a></li>
+              <li><a class="dropdown-item" href="#">Music Theory</a></li>
+              <li><a class="dropdown-item" href="#">Intro to Music Program</a></li>
+              <li><a class="dropdown-item" href="#">Toddler Classes</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link dcam-btn" href="rates.html">Rates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active dcam-btn" aria-current="page" href="#">Teachers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link dcam-btn" href="#">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link dcam-btn" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle dcam-btn" href="#" id="aboutDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+            <ul class="dropdown-menu dcam-blue-reg" aria-labelledby="aboutDropdown">
+              <li><a class="dropdown-item" href="our-mission.html">Our Mission</a></li>
+              <li><a class="dropdown-item" href="our-story.html">Our Story</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dcam-btn">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item dcam-btn">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item dcam-btn">
+            <a class="nav-link" href="#">Shop</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--/NAVBAR-->
 
 
 <!-- BANNER -->
-<div class="container-fluid bg-dcam bg-light mb-5">
-  <div class="row d-flex justify-content-end">
+<div class="container-fluid bg-dcam bg-light mb-0 banner px-0">
+  <div class="container-fluid d-flex justify-content-end" style="height: 100%">
 
-      <div class="col-lg-6 col-xxl-7 pe-0 text-center mt-5">
-          <div>
-            <h1 class="display-4 dcam-text-orange roboto-ital roboto-bold">Music Lessons in Etobicoke</h1>
-            <p class="lead">Discover the joy that music can bring, register for your free trial today!</p>
-          </div>
+      <div class="col-lg-9 col-xxl-9 pe-0 d-flex flex-column justify-content-center text-center" style="padding-left: 0px">
+          <h1 class="display-5 mt-2 dcam-text-orange roboto-ital roboto-bold">Discover the world of possibilities with music.</h1>
+          <h3 class="mb-3 text-dark py-4 px-3 rounded text-center">Music lessons for all ages and skill levels levels in the charming Etobicoke neighbourhood of Humber Valley Village.</h3>
 
-          <div class="d-md-flex justify-content-center pt-5 mb-5">
-                  <button type="button" class="btn btn-warning text-light btn-lg mb-3 mb-sm-0 me-3 text-nowrap" data-bs-toggle="modal" data-bs-target="#trialModal">Free Trial Lesson</button>
-                  <button type="button" class="btn btn-primary btn-lg mt-3 mt-sm-0 ms-3 text-nowrap" data-bs-toggle="modal" data-bs-target="#infoModal">Download Info Pack</button>
+          <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center mt-2 overflow-hidden">
+                  <button type="button" class="btn btn-warning text-light btn-lg mb-3 mb-sm-0 me-sm-4 text-nowrap" data-bs-toggle="modal" data-bs-target="#trialModal">Free Trial Lesson</button>
+                  <button type="button" class="btn btn-primary btn-lg mt-3 mt-sm-0 ms-sm-4 text-nowrap" data-bs-toggle="modal" data-bs-target="#infoModal">Download Info Pack</button>
           </div>
       </div>
-      <div class="col-lg-3 col-xxl-2 d-flex p-5 flex-column justify-content-center filter text-light text-center">
-          <h3 class="ovo text-nowrap">Contact Us:</h3>
-          <a role="button" class="btn text-light text-nowrap" href="tel:+14162379595"><i class="fas fa-phone"></i> (416) 237-9595</a>
-          <a role="button" class="btn text-light text-nowrap" href="mailto:info@dacapomusic.ca"><i class="fas fa-envelope"></i> info@dacapomusic.ca</a>
-      </div>
-
-  </div><!--/row-->
-</div><!--/BANNER-->
+      
+  </div>
+</div>
+<!--/BANNER-->
 
 
-<!-- FREE TRIAL LESSON MODAL -->
-<div class="modal fade" id="trialModal" tabindex="-1">
-  <div class="modal-dialog">
+  <!-- FREE TRIAL LESSON MODAL -->
+  <div class="modal fade" id="trialModal" tabindex="-1">
+    <div class="modal-dialog">
 
-    <div class="modal-content">
-      <div class="modal-header dcam-red text-light">
-        <h5 class="modal-title">Free Trial Lesson - Registration Form</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
+      <div class="modal-content">
+        <div class="modal-header dcam-red text-light">
+          <h5 class="modal-title">Free Trial Lesson - Registration Form</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
 
         <div class="modal-body">
-          <div class="form-text pb-3 text-end"><small class="mark text-muted">Fields marked with an * are required.</small></div>
+          <div class="form-text pb-3 text-end"><small class="mark text-muted">Fields marked with an * are
+              required.</small></div>
           <form>
-                <div class="mb-3">
-                  <label for="studentName" class="form-label">Student Name*</label>
-                  <input type="text" class="form-control" id="studentName">
-                </div>
-
-                <div class="mb-3">
-                  <label for="parentName" class="form-label">Parent/Guardian Name*<span class="small text-muted"> (enter "na" if you're an adult student)</span></label>
-                  <input type="text" class="form-control" id="parentName">
-                </div>
-
-                <div class="mb-3">
-                  <label for="instrument" class="form-label">Instrument*</label>
-                  <select class="form-select" id="instrument" aria-label="Default select example">
-                    <option selected></option>
-                    <option value="1">piano</option>
-                    <option value="2">guitar</option>
-                    <option value="3">drums</option>
-                    <option value="3">voice</option>
-                    <option value="3">music theory</option>
-                  </select>
-                </div>
-
-                <div class="mb-3">
-                  <label for="phone" class="form-label">Phone*</label>
-                  <input type="tel" class="form-control" id="phone">
-                </div>
-
-                <div class="mb-3">
-                  <label for="email" class="form-label">Email*</label>
-                  <input type="email" class="form-control" id="email">
-                </div>
-
-                <div class="mb-3">
-                  <label class="form-label">How did you hear about us?*</label>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="source" value="" id="google">
-                    <label class="form-check-label" for="google">Google Search</label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="source" value="" id="humber">
-                    <label class="form-check-label" for="humber">Humbertown Sign</label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="source" value="" id="friend">
-                    <label class="form-check-label" for="friend">Friend/Relative</label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="source" value="" id="social">
-                    <label class="form-check-label" for="social">Social Media (Facebook/Instagram)</label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="source" value="" id="print">
-                    <label class="form-check-label" for="print">Print Flyer</label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="source" value="" id="blog">
-                    <label class="form-check-label" for="blog">Blog Article</label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="source" value="" id="other">
-                    <label class="form-check-label" for="other">Other</label>
-                  </div>
-                </div><!--/radio div-->
-
-                <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label">Notes (optional)</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>  
-            </form>
-            <div class="d-flex-column py-2">
-              <button type="submit" class="btn btn-primary d-block mx-auto">Submit Form</button>
-              <span class="mark small text-muted d-block text-center mt-3">We will contact you within 2 business days to arrange your trial lesson!</span>
+            <div class="mb-3">
+              <label for="studentName" class="form-label">Student Name*</label>
+              <input type="text" class="form-control" id="studentName">
             </div>
-        </div><!--/modal body-->
-    </div><!--/modal content-->
-  </div><!--/modal dialog-->
-</div><!--/modal-->
-<!-- /FREE TRIAL LESSON MODAL -->
 
+            <div class="mb-3">
+              <label for="parentName" class="form-label">Parent/Guardian Name*<span class="small text-muted"> (enter
+                  "na" if you're an adult student)</span></label>
+              <input type="text" class="form-control" id="parentName">
+            </div>
 
-<!-- INFO PACK MODAL -->
-<div class="modal fade" id="infoModal" tabindex="-1">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header dcam-red text-light">
-        <h5 class="modal-title">Da Capo Academy of Music - Info Pack</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="mb-3">
+              <label for="instrument" class="form-label">Instrument*</label>
+              <select class="form-select" id="instrument" aria-label="Default select example">
+                <option selected></option>
+                <option value="1">piano</option>
+                <option value="2">guitar</option>
+                <option value="3">drums</option>
+                <option value="3">voice</option>
+                <option value="3">music theory</option>
+              </select>
+            </div>
+
+            <div class="mb-3">
+              <label for="phone" class="form-label">Phone*</label>
+              <input type="tel" class="form-control" id="phone">
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Email*</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">How did you hear about us?*</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="source" value="" id="google">
+                <label class="form-check-label" for="google">Google Search</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="source" value="" id="humber">
+                <label class="form-check-label" for="humber">Humbertown Sign</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="source" value="" id="friend">
+                <label class="form-check-label" for="friend">Friend/Relative</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="source" value="" id="social">
+                <label class="form-check-label" for="social">Social Media (Facebook/Instagram)</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="source" value="" id="print">
+                <label class="form-check-label" for="print">Print Flyer</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="source" value="" id="blog">
+                <label class="form-check-label" for="blog">Blog Article</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="source" value="" id="other">
+                <label class="form-check-label" for="other">Other</label>
+              </div>
+            </div>
+            <!--/radio div-->
+
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Notes (optional)</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </form>
+          <div class="d-flex-column py-2">
+            <button type="submit" class="btn btn-primary d-block mx-auto">Submit Form</button>
+            <span class="mark small text-muted d-block text-center mt-3">We will contact you within 2 business days to
+              arrange your trial lesson!</span>
+          </div>
+        </div>
+        <!--/modal body-->
       </div>
+      <!--/modal content-->
+    </div>
+    <!--/modal dialog-->
+  </div>
+  <!--/modal-->
+  <!-- /FREE TRIAL LESSON MODAL -->
+
+
+  <!-- INFO PACK MODAL -->
+  <div class="modal fade" id="infoModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header dcam-red text-light">
+          <h5 class="modal-title">Da Capo Academy of Music - Info Pack</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
         <div class="modal-body">
-            <small>Learn more about what we offer and how our lessons work with our "Info Pack" (PDF). Just enter your email address below to have it sent to you!</small>
-            <div class="input-group my-4">
-              <input type="email" id="email2" class="form-control" placeholder="Enter your email address" aria-label="Recipient's email" aria-describedby="button-addon2">
-              <button class="btn btn-primary" type="submit" id="button-addon2">Submit</button>
-            </div>
-        </div><!--/modal body-->
-    </div><!--/modal content-->
-  </div><!--/modal dialog-->
-</div><!--/modal-->
-<!-- /INFO PACK MODAL -->
-
-
-<!-- TEACHERS SECTION BEGINS -->
-
-<div class="container mt-5">
-
-        <h3 class="display-4 text-muted">Teachers</h3>
-        <hr id="raul">
-
-        <div class="card mb-3 my-5 no-border mx-auto" style="max-width: 900px;">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="img/teachers/raul.jpg" class="img-fluid rounded-start img-thumbnail" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body pt-md-0"> 
-                  <h5 class="card-title ovo display-6 dcam-text-orange text-center">Raul Pineda</h5>
-                  <p class="dcam-border text-center dcam-text-orange"><strong><i>drums</i></strong></p>
-                  <p class="card-text">Originally from Havana, Cuba, Raul Pineda started his musical career at the age of eight. Dazzled by the sounds of drums and percussion, he took lessons with several private teachers, who encouraged him to pursue music as a profession. After finishing his studies in Cuba, he immigrated to Canada in 2005 and continued his studies at Humber College, where he finished his Degree in “Contemporary Music” in 2010. During his time at Humber, he was awarded the Millennium Scholarship and, as a member of the Humber Studio Jazz Ensemble, gained a lot of experience working with world class artists such as Mike Stern, Randy Brecker, Dave Douglas, Labarbera Brothers, Chris Potter and others. Today, he teaches and continues performing and recording professionally in the city of Toronto.</p>
-                </div>
-              </div>
-            </div>
+          <small>Learn more about what we offer and how our lessons work with our "Info Pack" (PDF). Just enter your
+            email address below to have it sent to you!</small>
+          <div class="input-group my-4">
+            <input type="email" id="email2" class="form-control" placeholder="Enter your email address"
+              aria-label="Recipient's email" aria-describedby="button-addon2">
+            <button class="btn btn-primary" type="submit" id="button-addon2">Submit</button>
           </div>
+        </div>
+        <!--/modal body-->
+      </div>
+      <!--/modal content-->
+    </div>
+    <!--/modal dialog-->
+  </div>
+  <!--/modal-->
+  <!-- /INFO PACK MODAL -->
 
-          <hr class="my-5" id="andrew">
 
-          <div class="card mb-3 my-5 no-border mx-auto" style="max-width: 900px;">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="img/teachers/andrew.jpg" class="img-fluid rounded-start img-thumbnail" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body pt-md-0">
-                  <h5 class="card-title ovo display-6 dcam-text-orange text-center">Andrew Marzotto</h5>
-                  <p class="dcam-border text-center dcam-text-orange"><strong><i>guitar</i></strong></p>
-                  <p class="card-text">Andrew Marzotto is a Toronto born and based guitarist, composer and educator. He is a 2016 graduate of the Berklee College of Music in Boston, Massachusetts where he was a member of the Berklee Global Jazz Institute. At Berklee, he had the incredible opportunity to study with Mick Goodrick, Joe Lovano, Hal Crook, Danilo Perez, and David Tronzo. He has performed extensively throughout Toronto and Boston as well as toured extensively across the USA, Canada, and Europe with Justin Nozuka. In addition to being a busy performer, Andrew is also an in-demand session guitarist, having played on recordings by Young Thug, Jaden Smith, Nailah Blackman, Craig Cardiff and Dayna Stephens.</p>
-                </div>
-              </div>
-            </div>
+  <!-- TEACHERS SECTION BEGINS -->
+
+  <div class="container mt-5">
+
+    <h3 class="display-4 text-muted">Teachers</h3>
+    <hr id="raul">
+
+    <div class="card mb-3 my-5 no-border mx-auto" style="max-width: 900px;">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="img/teachers/raul.jpg" class="img-fluid rounded-start img-thumbnail" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body pt-md-0">
+            <h5 class="card-title ovo display-6 dcam-text-orange text-center">Raul Pineda</h5>
+            <p class="dcam-border text-center dcam-text-orange"><strong><i>drums</i></strong></p>
+            <p class="card-text">Originally from Havana, Cuba, Raul Pineda started his musical career at the age of
+              eight. Dazzled by the sounds of drums and percussion, he took lessons with several private teachers, who
+              encouraged him to pursue music as a profession. After finishing his studies in Cuba, he immigrated to
+              Canada in 2005 and continued his studies at Humber College, where he finished his Degree in “Contemporary
+              Music” in 2010. During his time at Humber, he was awarded the Millennium Scholarship and, as a member of
+              the Humber Studio Jazz Ensemble, gained a lot of experience working with world class artists such as Mike
+              Stern, Randy Brecker, Dave Douglas, Labarbera Brothers, Chris Potter and others. Today, he teaches and
+              continues performing and recording professionally in the city of Toronto.</p>
           </div>
+        </div>
+      </div>
+    </div>
 
-          <hr class="my-5" id="yeri">
+    <hr class="my-5" id="andrew">
 
-          <div class="card mb-3 my-5 no-border mx-auto" style="max-width: 900px;">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="img/teachers/yeri.png" class="img-fluid rounded-start img-thumbnail" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body pt-md-0">
-                  <h5 class="card-title ovo display-6 dcam-text-orange text-center">Yeri Lim</h5>
-                  <p class="dcam-border text-center dcam-text-orange"><strong><i>piano</i></strong></p>
-                  <p class="card-text">Yeri is a Toronto based pianist. She started playing piano at the age of 6 and has been studying diverse genres of music such as classical, Korean classical, jazz, contemporary pop, film, musical theatre, blues, church, and r&b music since then. In 2016, she started her music degree at Humber college and was selected as a recipient of a Humber piano scholarship. During her studies at Humber, she was a part of various recitals, showcases, and recording projects in and outside of school as a live or session piano/synth player. In 2020, she released her first EP ‘Bicycle Launch’, and focusing on her compositional works.</p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 my-5 no-border mx-auto" style="max-width: 900px;">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="img/teachers/andrew.jpg" class="img-fluid rounded-start img-thumbnail" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body pt-md-0">
+            <h5 class="card-title ovo display-6 dcam-text-orange text-center">Andrew Marzotto</h5>
+            <p class="dcam-border text-center dcam-text-orange"><strong><i>guitar</i></strong></p>
+            <p class="card-text">Andrew Marzotto is a Toronto born and based guitarist, composer and educator. He is a
+              2016 graduate of the Berklee College of Music in Boston, Massachusetts where he was a member of the
+              Berklee Global Jazz Institute. At Berklee, he had the incredible opportunity to study with Mick Goodrick,
+              Joe Lovano, Hal Crook, Danilo Perez, and David Tronzo. He has performed extensively throughout Toronto and
+              Boston as well as toured extensively across the USA, Canada, and Europe with Justin Nozuka. In addition to
+              being a busy performer, Andrew is also an in-demand session guitarist, having played on recordings by
+              Young Thug, Jaden Smith, Nailah Blackman, Craig Cardiff and Dayna Stephens.</p>
           </div>
+        </div>
+      </div>
+    </div>
 
-          <hr class="my-5" id="jonathan">
+    <hr class="my-5" id="yeri">
 
-          <div class="card mb-3 my-5 no-border mx-auto" style="max-width: 900px;">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="img/teachers/jonathan.jpg" class="img-fluid rounded-start img-thumbnail" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body pt-md-0">
-                  <h5 class="card-title ovo display-6 dcam-text-orange text-center">Jonathan Stuchbery</h5>
-                  <p class="dcam-border text-center dcam-text-orange"><strong><i>guitar, classical guitar</i></strong></p>
-                  <p class="card-text">Jonathan Stuchbery is a classical guitarist and a specialist in lutes and historical guitars. As an educator, he encourages students to explore their musical interests while laying strong technical foundations and helping students approach their instruments and music with ease. Jonathan is experienced as a guitar (all styles) and lute teacher, as well as a repertoire coach for vocalists and instrumentalists working on baroque and renaissance music. He is busy as a performer at home and abroad where he is active with multiple ensembles and festivals. Jonathan holds a Master’s in Historical Performance from the Escola Superior de Música de Catalunya in Barcelona. He was also recognized for outstanding achievement in lute at McGill’s Schulich School of Music, receiving his B.Mus. in guitar and lute under teachers Jérôme Ducharme and Sylvain Bergeron.</p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 my-5 no-border mx-auto" style="max-width: 900px;">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="img/teachers/yeri.png" class="img-fluid rounded-start img-thumbnail" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body pt-md-0">
+            <h5 class="card-title ovo display-6 dcam-text-orange text-center">Yeri Lim</h5>
+            <p class="dcam-border text-center dcam-text-orange"><strong><i>piano</i></strong></p>
+            <p class="card-text">Yeri is a Toronto based pianist. She started playing piano at the age of 6 and has been
+              studying diverse genres of music such as classical, Korean classical, jazz, contemporary pop, film,
+              musical theatre, blues, church, and r&b music since then. In 2016, she started her music degree at Humber
+              college and was selected as a recipient of a Humber piano scholarship. During her studies at Humber, she
+              was a part of various recitals, showcases, and recording projects in and outside of school as a live or
+              session piano/synth player. In 2020, she released her first EP ‘Bicycle Launch’, and focusing on her
+              compositional works.</p>
           </div>
+        </div>
+      </div>
+    </div>
 
-          <hr class="my-5">
+    <hr class="my-5" id="aaron">
 
-          <div class="card mb-3 my-5 no-border mx-auto" style="max-width: 900px;">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="img/teachers/oksana.jpg" class="img-fluid rounded-start img-thumbnail" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body pt-md-0">
-                  <h5 class="card-title ovo display-6 dcam-text-orange text-center">Oksana Skira</h5>
-                  <p class="dcam-border text-center dcam-text-orange"><strong><i>co-founder, piano</i></strong></p>
-                  <p class="card-text">Oksana Skira is a professional pianist, accompanist, performer, teacher, and a recording artist. She began her music education at Barvinsky State Music College of Drohobych (Drohobych, Ukraine), going on to receive a Masters in Piano Performance from Mykola Lysenko Lviv National Music Academy (Lviv, Ukraine). While studying in Drohobych, she won 2nd place in the Western Ukraine Musical Competition. Oksana has recorded and released three independent CDs and continues to be active as a performer, accompanist, and teacher in Toronto and the GTA. At DCAM, Oksana teaches beginner to advanced piano.</p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 my-5 no-border mx-auto" style="max-width: 900px;">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="img/teachers/aaron.jpg" class="img-fluid rounded-start img-thumbnail" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body pt-md-0">
+            <h5 class="card-title ovo display-6 dcam-text-orange text-center">Aaron Dawang</h5>
+            <p class="dcam-border text-center dcam-text-orange"><strong><i>piano</i></strong></p>
+            <p class="card-text">Aaron started playing the piano at the age of 3 and a half. He attended the Ontario
+              Conservatory of Music for ten years, where he participated in multiple recitals, concerts, and
+              competitions. As a piano student, he won multiple times at the Canadian Music League competition in genres
+              such as pop and classical. Through his involvement with piano, he also developed interests in singing and
+              dancing, and was a member of his high school dance team. When it comes to piano, Aaron is passionate about
+              teaching and seeing his students succeed. He particularly enjoys teaching the classical repertoire, but is
+              happy to teach other genres as well, depending on the interests of his students.</p>
           </div>
+        </div>
+      </div>
+    </div>
 
-          <hr class="my-5">
 
-          <div class="card mb-3 my-5 no-border mx-auto" style="max-width: 900px;">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="img/teachers/terry.jpg" class="img-fluid rounded-start img-thumbnail" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body pt-md-0">
-                  <h5 class="card-title ovo display-6 dcam-text-orange text-center">Terry Babyuk</h5>
-                  <p class="dcam-border text-center dcam-text-orange"><strong><i>co-founder, managing director, piano, theory</i></strong></p>
-                  <p class="card-text">Taras (Terry) Babyuk started his musical journey with accordion lessons at the age of seven. In his teens, he began piano lessons and soon decided to dedicate himself fully to this instrument. Terry holds Level 9 RCM Certificate in piano and has taught beginner to intermediate piano and beginner to advanced music theory for many years (a self-described music theory nerd!). In addition to his fondness for Classical and Romantic-era music, he also loves film music and enjoys composing original piano music in his spare time. Aside from his teaching duties at DCAM, he is also its co-founder and Managing Director.</p>
-                </div>
-              </div>
-            </div>
+    <hr class="my-5" id="jonathan">
+
+    <div class="card mb-3 my-5 no-border mx-auto" style="max-width: 900px;">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="img/teachers/jonathan.jpg" class="img-fluid rounded-start img-thumbnail" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body pt-md-0">
+            <h5 class="card-title ovo display-6 dcam-text-orange text-center">Jonathan Stuchbery</h5>
+            <p class="dcam-border text-center dcam-text-orange"><strong><i>guitar, classical guitar</i></strong></p>
+            <p class="card-text">Jonathan Stuchbery is a classical guitarist and a specialist in lutes and historical
+              guitars. As an educator, he encourages students to explore their musical interests while laying strong
+              technical foundations and helping students approach their instruments and music with ease. Jonathan is
+              experienced as a guitar (all styles) and lute teacher, as well as a repertoire coach for vocalists and
+              instrumentalists working on baroque and renaissance music. He is busy as a performer at home and abroad
+              where he is active with multiple ensembles and festivals. Jonathan holds a Master’s in Historical
+              Performance from the Escola Superior de Música de Catalunya in Barcelona. He was also recognized for
+              outstanding achievement in lute at McGill’s Schulich School of Music, receiving his B.Mus. in guitar and
+              lute under teachers Jérôme Ducharme and Sylvain Bergeron.</p>
           </div>
+        </div>
+      </div>
+    </div>
 
-</div><!--/container-->
+    <hr class="my-5">
+
+    <div class="card mb-3 my-5 no-border mx-auto" style="max-width: 900px;">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="img/teachers/oksana.jpg" class="img-fluid rounded-start img-thumbnail" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body pt-md-0">
+            <h5 class="card-title ovo display-6 dcam-text-orange text-center">Oksana Skira</h5>
+            <p class="dcam-border text-center dcam-text-orange"><strong><i>co-founder, piano</i></strong></p>
+            <p class="card-text">Oksana Skira is a professional pianist, accompanist, performer, teacher, and a
+              recording artist. She began her music education at Barvinsky State Music College of Drohobych (Drohobych,
+              Ukraine), going on to receive a Masters in Piano Performance from Mykola Lysenko Lviv National Music
+              Academy (Lviv, Ukraine). While studying in Drohobych, she won 2nd place in the Western Ukraine Musical
+              Competition. Oksana has recorded and released three independent CDs and continues to be active as a
+              performer, accompanist, and teacher in Toronto and the GTA. At DCAM, Oksana teaches beginner to advanced
+              piano.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-5">
+
+    <div class="card mb-3 my-5 no-border mx-auto" style="max-width: 900px;">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="img/teachers/terry.jpg" class="img-fluid rounded-start img-thumbnail" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body pt-md-0">
+            <h5 class="card-title ovo display-6 dcam-text-orange text-center">Terry Babyuk</h5>
+            <p class="dcam-border text-center dcam-text-orange"><strong><i>co-founder, managing director, piano,
+                  theory</i></strong></p>
+            <p class="card-text">Taras (Terry) Babyuk started his musical journey with accordion lessons at the age of
+              seven. In his teens, he began piano lessons and soon decided to dedicate himself fully to this instrument.
+              Terry holds Level 9 RCM Certificate in piano and has taught beginner to intermediate piano and beginner to
+              advanced music theory for many years (a self-described music theory nerd!). In addition to his fondness
+              for Classical and Romantic-era music, he also loves film music and enjoys composing original piano music
+              in his spare time. Aside from his teaching duties at DCAM, he is also its co-founder and Managing
+              Director.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!--/container-->
 
 
 
-<!-- FOOTER SECTION -->
-<div class="container-fluid mt-5 dcam-bg-gradient">
-  <div class="row">
+  <!-- FOOTER SECTION -->
+  <div class="container-fluid mt-5 dcam-bg-gradient">
+    <div class="row">
 
       <div class="col-sm-6 col-lg-3 py-5 ps-5">
-          <h5 class="text-light ovo">FOLLOW US:</h5>
-          <a href="https://www.facebook.com/dacapomusic.ca/"><i class="fab fa-facebook-square fa-3x ps-0 pe-2"></i></a>
-          <a href="https://www.instagram.com/dacapomusic.ca/"><i class="fab fa-instagram-square fa-3x p-2"></i></a>
-          <a href="https://www.youtube.com/watch?v=gSPAOkyO4AA"><i class="fab fa-youtube-square fa-3x p-2"></i></a>
+        <h5 class="text-light ovo">FOLLOW US:</h5>
+        <a href="https://www.facebook.com/dacapomusic.ca/"><i class="fab fa-facebook-square fa-3x ps-0 pe-2"></i></a>
+        <a href="https://www.instagram.com/dacapomusic.ca/"><i class="fab fa-instagram-square fa-3x p-2"></i></a>
+        <a href="https://www.youtube.com/watch?v=gSPAOkyO4AA"><i class="fab fa-youtube-square fa-3x p-2"></i></a>
       </div>
 
       <div class="col-sm-6 col-lg-3 py-5 ps-5">
@@ -370,64 +467,70 @@
         <h5 class="text-light ovo mb-3">LEARN MORE:</h5>
 
         <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link py-2 ps-0 d-inline-block" href="our-story.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active py-2 ps-0 d-inline-block" aria-current="page" href="#">Teachers</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link py-2 ps-0 d-inline-block" href="rates.html">Rates</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link py-2 ps-0 d-inline-block" href="gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link py-2 ps-0 d-inline-block" href="#">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link py-2 ps-0 d-inline-block" href="#">Shop</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link py-2 ps-0 d-inline-block" href="#">Privacy Policy</a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link py-2 ps-0 d-inline-block" href="our-story.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active py-2 ps-0 d-inline-block" aria-current="page" href="#">Teachers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link py-2 ps-0 d-inline-block" href="rates.html">Rates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link py-2 ps-0 d-inline-block" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link py-2 ps-0 d-inline-block" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link py-2 ps-0 d-inline-block" href="#">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link py-2 ps-0 d-inline-block" href="#">Privacy Policy</a>
+          </li>
         </ul>
 
       </div>
 
       <div class="col-sm-6 col-lg-3 py-5 ps-5">
-          <h5 class="text-light ovo mb-3">CONTACT US:</h5>
+        <h5 class="text-light ovo mb-3">CONTACT US:</h5>
 
         <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link pt-2 pb-3 ps-0 d-inline-block" href="tel:+14162379595"><i class="fas fa-phone"></i> (416) 237-9595</a>
-            </li>
-            <li class="nav-item">
-              <a  class="nav-link py-3 ps-0 d-inline-block" href="mailto:info@dacapomusic.ca"><i class="fas fa-envelope"></i> info@dacapomusic.ca</a>
-            </li>
-            <li class="nav-item">
-              <a  class="nav-link py-3 ps-0 d-inline-block" href="https://g.page/dacapomusic-ca?share" target="_blank"><i class="fas fa-map-marker-alt"></i> 270 The Kingsway,<br> Etobicoke, ON<br> M9A 3T7<br>(Humbertown Shopping Centre)</a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link pt-2 pb-3 ps-0 d-inline-block" href="tel:+14162379595"><i class="fas fa-phone"></i> (416)
+              237-9595</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link py-3 ps-0 d-inline-block" href="mailto:info@dacapomusic.ca"><i
+                class="fas fa-envelope"></i> info@dacapomusic.ca</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link py-3 ps-0 d-inline-block" href="https://g.page/dacapomusic-ca?share" target="_blank"><i
+                class="fas fa-map-marker-alt"></i> 270 The Kingsway,<br> Etobicoke, ON<br> M9A 3T7<br>(Humbertown
+              Shopping Centre)</a>
+          </li>
 
         </ul>
-          
-          <div class="d-flex flex-column">
-          </div>
+
+        <div class="d-flex flex-column">
+        </div>
       </div>
       <div class="col-12 text-muted bg-dark py-2 text-center">
-          <small>&copy 2021 Da Capo Academy of Music Inc.</small>
+        <small>&copy 2021 Da Capo Academy of Music Inc.</small>
       </div>
-  </div><!--/footer row-->
-</div>
-<!--/FOOTER SECTION-->
+    </div>
+    <!--/footer row-->
+  </div>
+  <!--/FOOTER SECTION-->
 
 
 
-<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-<!-- CDN scripts, for testing -->
+  <!-- CDN scripts, for testing -->
 
-<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> -->
 </body>
+
 </html>
